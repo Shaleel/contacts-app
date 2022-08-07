@@ -1,0 +1,19 @@
+{
+  "name": "contacts-app",
+  "version": "1.0.0",
+  "description": "A Full Stack Contacts app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shaleel/contcts-app.git"
+  },
+  "author": "Shaleel Ahmed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shaleel/contcts-app/issues"
+  },
+  "homepage": "https://github.com/Shaleel/contcts-app#readme"
+}
