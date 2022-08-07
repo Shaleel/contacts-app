@@ -19,10 +19,10 @@ app.use("/message", MessageRoutes);
 __dirname = path.resolve();
 
 if (process.env.NODE_ENV === "production") {
-  app.use(express.static(path.join(__dirname, "/front-end/build")));
+  app.use(express.static(path.join(__dirname, "front-end/build")));
 
   app.get("*", (req, res) =>
-    res.sendFile(path.resolve(__dirname, "/front-end", "build", "index.html"))
+    res.sendFile(path.resolve(__dirname, "front-end", "build", "index.html"))
   );
 }
 // --------------------------deployment------------------------------
@@ -42,6 +42,8 @@ app.use((err, req, res, next) => {
   });
 });
 
-app.listen(process.env.PORT, () => {
-  console.log("listening on port " + process.env.PORT);
+const PORT = process.env.PORT || 8080;
+
+app.listen(PORT, () => {
+  console.log("listening on port " + PORT);
 });
