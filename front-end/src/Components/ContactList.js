@@ -1,38 +1,7 @@
 import styled from 'styled-components';
 import ContactListItem from './ContactListItem';
+import CONTACTS from '../Contacts.json';
 
-const CONTACTS = [
-    {
-        image: 'https://randomuser.me/api/portraits/men/57.jpg',
-        firstname: 'Shaleel',
-        lastname: 'Ahmed',
-        mobile: 8860962227,
-        countryCode: +91,
-        profession: 'Architect',
-        address: 'New Delhi,Delhi,110002',
-        email: 'shaleelahmed3@gmail.com'
-    },
-    {
-        image: 'https://randomuser.me/api/portraits/men/58.jpg',
-        firstname: 'Shahzaib',
-        lastname: 'Ahmed',
-        mobile: 7210927863,
-        countryCode: +91,
-        profession: 'Engineer',
-        address: 'New Delhi,Delhi,110002',
-        email: 'shaleelahmed3@gmail.com'
-    },
-    {
-        image: 'https://randomuser.me/api/portraits/men/59.jpg',
-        firstname: 'Test',
-        lastname: 'Ahmed',
-        mobile: 9873696377,
-        countryCode: +91,
-        profession: 'Painter',
-        address: 'New Delhi,Delhi,110002',
-        email: 'shaleelahmed3@gmail.com'
-    }
-];
 const Wrapper = styled.div`
     width: 30%;
     padding: 1rem;
