@@ -12,6 +12,14 @@
     "url": "git+https://github.com/Shaleel/contcts-app.git"
   },
   "author": "Shaleel Ahmed",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "http-errors": "^2.0.0",
+    "mongoose": "^6.5.1",
+    "twilio": "^3.80.0"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Shaleel/contcts-app/issues"
