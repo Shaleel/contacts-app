@@ -4,7 +4,8 @@
   "description": "A Full Stack Contacts app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node back-end/index",
+    "server": "nodemon back-end/index"
   },
   "repository": {
     "type": "git",
